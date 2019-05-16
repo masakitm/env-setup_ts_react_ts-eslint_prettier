@@ -1,9 +1,7 @@
 {
   "scripts": {
     "start": "webpack-dev-server --config ./config/webpack.dev.js --hot",
-    "start:prod": "webpack-dev-server --config ./config/webpack.prod.js --hot",
     "build": "webpack --config ./config/webpack.dev.js",
-    "build:prod": "webpack --config ./webpack.prod.js --mode development"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",

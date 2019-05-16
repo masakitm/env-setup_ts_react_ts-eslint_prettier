@@ -51,9 +51,7 @@ eslint、prettierはエディタ側の自動保存時フォーマットする想
 ``` json
 "scripts": {
   "start": "webpack-dev-server --config ./config/webpack.dev.js", // ./config/webpack.dev.js でローカルサーバ起動
-  "start:prod": "webpack-dev-server --config ./config/webpack.prod.js", // ~prod.js でローカルサーバ起動
-  "build": "webpack --config ./config/webpack.dev.js", // 開発用ビルド
-  "build:prod": "webpack --config ./webpack.prod.js --mode development" // 本番用ビルド
+  "build": "webpack --config ./config/webpack.prod.js", // 開発用ビルド
 },
 ```
   
