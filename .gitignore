@@ -1,4 +1,5 @@
 node_modules
 dist/bundle.js
+dist/bundle.js.map
 yarn.lock
 yarn-error.log

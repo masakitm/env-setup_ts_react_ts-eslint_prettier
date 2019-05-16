@@ -1,3 +1,11 @@
+2019/05/17
+
+## 各パッケージについて
+
+
+## 設定について
+
+
 ### 主な参考資料
 
 * ベース資料 ts + react + webpack環境構築
@@ -5,6 +13,7 @@ https://qiita.com/fisherman3110se/items/918d6ef4244f7b4558ca
 
 * @typescript-eslintについて
 http://watanabeyu.blogspot.com/2019/02/typescript-eslinttypescriptlinteslintai.html  
+https://teppeis.hatenablog.com/entry/2019/02/typescript-eslint  
 
 * vscode用の設定  
 https://qiita.com/karak/items/12811d235b0d8bc8ad00#vs-code
