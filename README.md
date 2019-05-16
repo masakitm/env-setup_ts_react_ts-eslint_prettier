@@ -53,7 +53,7 @@ eslint、prettierはエディタ側の自動保存時フォーマットする想
   
 [package.json](/package.json)  
   
-``` json
+```
 "scripts": {
   "start": "webpack-dev-server --config ./config/webpack.dev.js", // ./config/webpack.dev.js でローカルサーバ起動
   "build": "webpack --config ./config/webpack.prod.js", // 開発用ビルド
@@ -65,7 +65,7 @@ eslint、prettierはエディタ側の自動保存時フォーマットする想
   
 [.vscode/settings.json](.vscode/settings.json)
   
-``` json
+```
 "eslint.enable": /* vscodeでeslintを有効化します */,
   "eslint.autoFixOnSave": /* 保存時に eslint --fix が走ります */,
   "eslint.validate": [
@@ -96,7 +96,7 @@ eslint、prettierはエディタ側の自動保存時フォーマットする想
 [https://github.com/alexgorbatchev/eslint-import-resolver-typescript](https://github.com/alexgorbatchev/eslint-import-resolver-typescript)  
   
 * tsファイルのimportに失敗する　Module not found: Error: Can't resolve '.tsファイル'
-https://stackoverflow.com/questions/43595555/webpack-cant-resolve-typescript-modules  
+[https://stackoverflow.com/questions/43595555/webpack-cant-resolve-typescript-modules](https://stackoverflow.com/questions/43595555/webpack-cant-resolve-typescript-modules)  
   
 * webpack.config.js分割　本番・開発用
-https://qiita.com/teinen_qiita/items/4e828ac30221efb624e1  
+[https://qiita.com/teinen_qiita/items/4e828ac30221efb624e1](https://qiita.com/teinen_qiita/items/4e828ac30221efb624e1)  
