@@ -34,7 +34,7 @@ config/webpack.prod.js // 本番用
   
 [.babelrc](/.babelrc)  
 
-``` json
+```
 {
   "env": { /* 開発環境設定  今回はes6、ブラウザ環境と設定 */ },
   "extends": [ /* eslintルールプリセットパッケージ  今回はeslint-preset-airbnb */ ],
