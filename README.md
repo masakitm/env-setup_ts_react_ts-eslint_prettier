@@ -6,6 +6,11 @@ typescript + eslint + prettierで円滑な開発を目指しています。
 redux、redux middlewareなどは導入していません。  
 必要に応じて導入する想定です。  
   
+## 懸念点
+  
+babelプラグインを使用する可能性を想定して `babel-loader` を入れているが、  
+`ts-loader` に全部任せちゃっていいのではないか？
+  
 ## 各 npm パッケージについて
   
 こちらをご参照ください。

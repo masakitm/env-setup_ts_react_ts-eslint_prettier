@@ -1,8 +1,10 @@
 import React from 'react';
-import { sayHelloReact } from './utils/utils';
+import { sayHelloReact } from '../samples/utils';
 
 const App: React.FC = () => (
-  <div>{ `${sayHelloReact()}` }</div>
+  <div>
+    { `${sayHelloReact()}` }
+  </div>
 );
 
 export default App;

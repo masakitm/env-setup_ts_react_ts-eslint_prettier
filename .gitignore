@@ -3,3 +3,4 @@ dist/bundle.js
 dist/bundle.js.map
 yarn.lock
 yarn-error.log
+.DS_Store
