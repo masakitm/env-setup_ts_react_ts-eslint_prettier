@@ -1,7 +1,8 @@
 import React from 'react';
+import { sayHello, sayName } from './utils/utils';
 
 const App: React.FC = () => (
-  <div>Hello, React</div>
+  <div>{ `${sayHello()}, ${sayName()}` }</div>
 );
 
 export default App;
