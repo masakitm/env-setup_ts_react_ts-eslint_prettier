@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
-    "build": "webpack --config ./webpack.config.js --mode production",
-    "build:dev": "webpack --config ./webpack.config.js --mode development"
+    "start": "webpack-dev-server --config ./config/webpack.dev.js --hot",
+    "start:prod": "webpack-dev-server --config ./config/webpack.prod.js --hot",
+    "build": "webpack --config ./config/webpack.dev.js",
+    "build:prod": "webpack --config ./webpack.prod.js --mode development"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
@@ -30,6 +31,7 @@
     "@types/react": "^16.8.17",
     "@types/react-dom": "^16.8.4",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "webpack-merge": "^4.2.1"
   }
 }
