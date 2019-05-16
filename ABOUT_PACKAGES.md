@@ -45,9 +45,13 @@
 
 ### dependencies
 ```
-	"@types/react": "^16.8.17",
-	"@types/react-dom": "^16.8.4",
-	"react": "^16.8.6",
-	"react-dom": "^16.8.6",
-	"webpack-merge": "^4.2.1"
+"@types/react": react用の型定義
+
+"@types/react-dom": react-dom用の型定義
+
+"react": react本体
+
+"react-dom": reactアプリのDOMツリーを出力する
+
+"webpack-merge": webpack分割時、マージする
 ```
