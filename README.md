@@ -60,6 +60,25 @@ eslint、prettierはエディタ側の自動保存時フォーマットする想
 },
 ```
   
+  
+## vscode設定について
+  
+[.vscode/settings.json](.vscode/settings.json)
+  
+``` json
+"eslint.enable": /* vscodeでeslintを有効化します */,
+  "eslint.autoFixOnSave": /* 保存時に eslint --fix が走ります */,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
+  "files.eol": "\n",
+}
+```
+  
+  
 ### 主な参考資料
 
 * ベース資料 ts + react + webpack環境構築
