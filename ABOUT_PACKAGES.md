@@ -36,8 +36,6 @@
 
 "prettier": コードフォーマッタ
 
-"source-map-loader": いらんかも
-
 "ts-loader": webpackにtsを読ませる
 
 "typescript": ts本体

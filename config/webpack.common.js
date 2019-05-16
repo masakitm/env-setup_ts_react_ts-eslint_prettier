@@ -18,17 +18,6 @@ module.exports = {
         ],
         exclude: /node_modules/,
       },
-      // {
-      //   test: /\.(js)$/,
-      //   exclude: /node_modules/,
-      //   use: [{
-      //     loader: 'source-map-loader',
-      //     options: {
-      //       enforce: 'pre',
-      //       presets: ['@babel/preset-env', '@babel/preset-react'],
-      //     },
-      //   }],
-      // },
       {
         test: /\.(ts|tsx)$/,
         use: [{
