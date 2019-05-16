@@ -1,12 +1,18 @@
-2019/05/17
-
-## 各npm パッケージについて
-
-こちらを参照
+# 本リポジトリについて
+  
+2019/05/17現在、react開発で使いたいパッケージ・環境を整えたものです。  
+typescript + eslint + prettierで円滑な開発を目指しています。  
+  
+redux、redux middlewareなどは導入していません。  
+必要に応じて導入する想定です。  
+  
+## 各 npm パッケージについて
+  
+こちらをご参照ください。
 [ABOUT_PACKAGES](/ABOUT_PACKAGES.md)  
 
 ## webpack設定について
-
+  
 開発用・本番用で設定ファイルを分けるのが公式推奨だったため分割しました。  
 https://webpack.js.org/guides/production/  
 
@@ -20,7 +26,7 @@ config/webpack.prod.js // 本番用
 ```
 
 ## babel設定について
-
+  
 [.babelrc](/.babelrc)  
 
 ``` json
@@ -37,39 +43,38 @@ config/webpack.prod.js // 本番用
 ```
 
 ## npm scriptsについて
-
-eslint、prettierはエディタ側の自動保存でやる想定なので入れていません。  
-`$ npx eslint ./src/**` などはお好みで登録してください。  
+  
+eslint、prettierはエディタ側の自動保存時フォーマットする想定なので入れていません。  
   
 [package.json](/package.json)  
   
 ``` json
 "scripts": {
-	"start": "webpack-dev-server --config ./config/webpack.dev.js", // ./config/webpack.dev.js でローカルサーバ起動
-	"start:prod": "webpack-dev-server --config ./config/webpack.prod.js", // ~prod.js でローカルサーバ起動
-	"build": "webpack --config ./config/webpack.dev.js", // 開発用ビルド
-	"build:prod": "webpack --config ./webpack.prod.js --mode development" // 本番用ビルド
+  "start": "webpack-dev-server --config ./config/webpack.dev.js", // ./config/webpack.dev.js でローカルサーバ起動
+  "start:prod": "webpack-dev-server --config ./config/webpack.prod.js", // ~prod.js でローカルサーバ起動
+  "build": "webpack --config ./config/webpack.dev.js", // 開発用ビルド
+  "build:prod": "webpack --config ./webpack.prod.js --mode development" // 本番用ビルド
 },
 ```
-
+  
 ### 主な参考資料
 
 * ベース資料 ts + react + webpack環境構築
 [https://qiita.com/fisherman3110se/items/918d6ef4244f7b4558ca](https://qiita.com/fisherman3110se/items/918d6ef4244f7b4558ca)  
-
+  
 * @typescript-eslintについて
-http://watanabeyu.blogspot.com/2019/02/typescript-eslinttypescriptlinteslintai.html  
-https://teppeis.hatenablog.com/entry/2019/02/typescript-eslint  
-
+[http://watanabeyu.blogspot.com/2019/02/typescript-eslinttypescriptlinteslintai.html](http://watanabeyu.blogspot.com/2019/02/typescript-eslinttypescriptlinteslintai.html)  
+[https://teppeis.hatenablog.com/entry/2019/02/typescript-eslint](https://teppeis.hatenablog.com/entry/2019/02/typescript-eslint)  
+  
 * vscode用の設定  
-https://qiita.com/karak/items/12811d235b0d8bc8ad00#vs-code
-
+[https://qiita.com/karak/items/12811d235b0d8bc8ad00#vs-code](https://qiita.com/karak/items/12811d235b0d8bc8ad00#vs-code)  
+  
 * .ts/tsxインポート時に `eslint(import/no-unresolved)` が出る時の対処
-https://qiita.com/euxn23/items/e2b9226ab1e02a9b1f20  
-https://github.com/alexgorbatchev/eslint-import-resolver-typescript
-
+[https://qiita.com/euxn23/items/e2b9226ab1e02a9b1f20](https://qiita.com/euxn23/items/e2b9226ab1e02a9b1f20)  
+[https://github.com/alexgorbatchev/eslint-import-resolver-typescript](https://github.com/alexgorbatchev/eslint-import-resolver-typescript)  
+  
 * tsファイルのimportに失敗する　Module not found: Error: Can't resolve '.tsファイル'
-https://stackoverflow.com/questions/43595555/webpack-cant-resolve-typescript-modules
-
+https://stackoverflow.com/questions/43595555/webpack-cant-resolve-typescript-modules  
+  
 * webpack.config.js分割　本番・開発用
-https://qiita.com/teinen_qiita/items/4e828ac30221efb624e1
+https://qiita.com/teinen_qiita/items/4e828ac30221efb624e1  
