@@ -1,4 +1,10 @@
 ## 各パッケージについて
+  
+* eslintによるjsチェック
+* prettierとeslintの連携
+* typescriptをeslintでlintする
+  
+以上の3つを主なコンセプトとしています。
 
 ### devDependencies
 ```
