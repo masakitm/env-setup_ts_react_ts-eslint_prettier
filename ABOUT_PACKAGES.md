@@ -1,6 +1,6 @@
 ## 各パッケージについて
   
-* eslintによるjsチェック
+* eslintによるtsチェック
 * prettierとeslintの連携
 * typescriptをeslintでlintする
   
