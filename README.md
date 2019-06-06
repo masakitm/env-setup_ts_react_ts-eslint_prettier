@@ -55,7 +55,7 @@ config/webpack.prod.js // 本番用
 
 ## npm scriptsについて
   
-eslint、prettierはエディタ側の自動保存時フォーマットする想定なので入れていません。  
+eslint、prettierは、ファイル保存時にエディタ側で自動フォーマットする想定なので入れていません。  
   
 [package.json](/package.json)  
   
