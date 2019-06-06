@@ -5,20 +5,26 @@ typescript + eslint + prettierで円滑な開発を目指しています。
   
 redux、redux middlewareなどは導入していません。  
 必要に応じて導入する想定です。  
-  
+
+## 特徴
+typescriptを用いた開発環境の構築はtslint、awesome-typescript-loaderをはじめしばらく不安定な状態が続きましたが、2019年になってeslintがtypescriptへ対応したことで環境が固まりつつあり、始めるにはベストなタイミングと判断しました。
+
+eslintとの連携が可能なprettier、typescriptと相性の比較的良いreactを用いて安定した開発を行うこと。
+react自体のスクラッチ開発環境構築は何度も行なっていますが、typescriptを使う場合を一から理解を深めつつ構築すること、今後の開発で活用できるように小さく作ることを目的としています。
+
 ## 懸念点
   
 babelプラグインを使用する可能性を想定して `babel-loader` を入れているが、  
-`ts-loader` に全部任せちゃっていいのではないか？
+`ts-loader` に全部任せちゃってよいかもしれません。
   
-## 各 npm パッケージについて
-  
+## 導入した npm パッケージについて
+
 こちらをご参照ください。
 [ABOUT_PACKAGES](/ABOUT_PACKAGES.md)  
 
 ## webpack設定について
   
-開発用・本番用で設定ファイルを分けるのが公式推奨だったため分割しました。  
+開発用・本番用で設定ファイルを分けるのが公式推奨のため分割しています。  
 https://webpack.js.org/guides/production/  
 
 webpack.common.jsに基本設定を記述し、`webpack-merge` パッケージを使ってマージ。
