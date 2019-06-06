@@ -9,8 +9,7 @@ redux、redux middlewareなどは導入していません。
 ## 特徴
 typescriptを用いた開発環境の構築はtslint、awesome-typescript-loaderをはじめしばらく不安定な状態が続きましたが、2019年になってeslintがtypescriptへ対応したことで環境が固まりつつあり、始めるにはベストなタイミングと判断しました。
 
-eslintとの連携が可能なprettier、typescriptと相性の比較的良いreactを用いて安定した開発を行うこと。
-react自体のスクラッチ開発環境構築は何度も行なっていますが、typescriptを使う場合を一から理解を深めつつ構築すること、今後の開発で活用できるように小さく作ることを目的としています。
+eslintとの連携が可能なprettier、typescriptと相性の比較的良いreactを用いて安定した開発を行うこと、またreact自体のスクラッチ開発環境構築は何度も行なっていますが、typescriptを使う場合を一から理解を深めつつ構築すること、今後の開発で活用できるように小さく作ることを目的としています。
 
 ## 懸念点
   
